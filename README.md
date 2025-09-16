@@ -82,7 +82,7 @@ All parameters and module versions are specified in `config/config.yml`
 - `fastqc, bowtie2, samtools, deeptools, bedtools, trim_galore, bbduk, ucsc, python, R`: module versions for HPC
 
 **Changing Genomes**  
-+ If using a different spike-in (e.g. *D. melanogaster*), just update the relevant Bowtie2 index and references in `config.yml`.
++ If using a different pirmary or spike-in (e.g. *D. melanogaster*) genome, just update the relevant Bowtie2 index and references in `config.yml`.
 
 **Tool Versions and Modules**  
 + The `config/config.yml` file specifies all software and specific versions  
